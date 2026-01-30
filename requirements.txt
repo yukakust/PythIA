@@ -5,3 +5,4 @@ pyobjc-framework-Quartz>=10.0; platform_system=="Darwin"
 fastapi>=0.110.0
 uvicorn>=0.27.0
 pillow>=10.0.0
+rapidocr-onnxruntime>=1.4.0
