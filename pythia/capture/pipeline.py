@@ -56,3 +56,6 @@ class CapturePipeline:
 
     def frames(self) -> Iterator[Frame]:
         return self._buffer.frames()
+
+    def frames_all(self, *, start_from_latest: bool = False) -> Iterator[Frame]:
+        return self._buffer.frames_all(start_from_latest=start_from_latest)

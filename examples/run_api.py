@@ -1,12 +1,7 @@
 from __future__ import annotations
 
 import argparse
-import pathlib
-import sys
-
 import uvicorn
-
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
 from pythia.api import create_app
 

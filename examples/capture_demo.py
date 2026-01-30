@@ -1,13 +1,9 @@
 from __future__ import annotations
 
 import argparse
-import pathlib
-import sys
 import time
 
 import cv2
-
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
 from pythia.capture import CapturePipeline, PreprocessConfig, ScreenSource
 

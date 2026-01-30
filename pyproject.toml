@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythia"
+version = "0.0.1"
+description = "Real-time visual perception engine that turns raw screen pixels into structured UI understanding"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "mss>=9.0.0",
+  "numpy>=1.26,<3.0",
+  "opencv-python>=4.8.0.0",
+  "pyobjc-framework-Quartz>=10.0; platform_system=='Darwin'",
+  "fastapi>=0.110.0",
+  "uvicorn>=0.27.0",
+  "pillow>=10.0.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pythia*"]
