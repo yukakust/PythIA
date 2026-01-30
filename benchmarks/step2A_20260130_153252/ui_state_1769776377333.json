@@ -1,0 +1,4052 @@
+{
+  "run": {
+    "name": "step2A_20260130_153252",
+    "ts_wall": 1769776376.129088,
+    "ts_monotonic": 472944.001044
+  },
+  "frame": {
+    "width": 1710,
+    "height": 1107,
+    "process_width": 1710,
+    "process_height": 1107
+  },
+  "config": {
+    "detector_every_n_frames": 10,
+    "ocr_every_n_frames": 10,
+    "buffer": 8
+  },
+  "timing_ms": {
+    "ui_detector": 50.29049998847768,
+    "ocr": 1134.4400420202874,
+    "e2e_latency": 1203.9355000015348
+  },
+  "elements": [
+    {
+      "class": "icon",
+      "bbox": [
+        1242,
+        5,
+        1281,
+        33
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1401,
+        9,
+        1427,
+        29
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        53,
+        11,
+        111,
+        25
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        223,
+        11,
+        254,
+        25
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        273,
+        11,
+        324,
+        25
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1442,
+        11,
+        1471,
+        27
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        129,
+        12,
+        161,
+        25
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        342,
+        12,
+        372,
+        27
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1657,
+        12,
+        1694,
+        25
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "container",
+      "bbox": [
+        0,
+        38,
+        1710,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        722,
+        46,
+        763,
+        60
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        764,
+        46,
+        820,
+        60
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        833,
+        47,
+        893,
+        62
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        321,
+        79,
+        390,
+        112
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        423,
+        79,
+        467,
+        93
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        469,
+        79,
+        531,
+        93
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1453,
+        86,
+        1474,
+        107
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1498,
+        86,
+        1519,
+        107
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1540,
+        86,
+        1563,
+        107
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        108,
+        89,
+        154,
+        103
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        496,
+        100,
+        551,
+        115
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        23,
+        132,
+        66,
+        167
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        426,
+        135,
+        475,
+        150
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        477,
+        138,
+        537,
+        153
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        89,
+        141,
+        142,
+        194
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        153,
+        147,
+        215,
+        161
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        217,
+        147,
+        249,
+        164
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        147,
+        393,
+        161
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        898,
+        154,
+        982,
+        169
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        654,
+        155,
+        729,
+        172
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        730,
+        156,
+        793,
+        172
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        438,
+        157,
+        498,
+        171
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        545,
+        157,
+        592,
+        172
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        593,
+        157,
+        641,
+        172
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        833,
+        157,
+        878,
+        171
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        996,
+        157,
+        1053,
+        172
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        13,
+        172,
+        65,
+        185
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        153,
+        173,
+        216,
+        190
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        934,
+        190,
+        956,
+        210
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1580,
+        190,
+        1602,
+        210
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1041,
+        192,
+        1090,
+        210
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        956,
+        193,
+        1021,
+        207
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        25,
+        201,
+        62,
+        231
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        175,
+        214,
+        283,
+        229
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        284,
+        214,
+        337,
+        232
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        95,
+        215,
+        136,
+        257
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        215,
+        395,
+        229
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        566,
+        218,
+        616,
+        229
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        618,
+        218,
+        694,
+        231
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        695,
+        218,
+        782,
+        230
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        783,
+        218,
+        826,
+        231
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1614,
+        231,
+        1680,
+        244
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        353,
+        236,
+        395,
+        260
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        478,
+        236,
+        560,
+        248
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        562,
+        236,
+        596,
+        248
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        630,
+        236,
+        689,
+        248
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        745,
+        236,
+        802,
+        249
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        825,
+        236,
+        867,
+        250
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        237,
+        238,
+        259,
+        259
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        16,
+        240,
+        63,
+        253
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        153,
+        241,
+        185,
+        258
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        186,
+        241,
+        234,
+        258
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        420,
+        241,
+        455,
+        280
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        478,
+        255,
+        547,
+        268
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        595,
+        255,
+        673,
+        270
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        674,
+        255,
+        741,
+        267
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        868,
+        258,
+        904,
+        272
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        25,
+        269,
+        62,
+        299
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        89,
+        276,
+        142,
+        330
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        175,
+        282,
+        229,
+        300
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        287,
+        282,
+        352,
+        300
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        231,
+        283,
+        274,
+        300
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        283,
+        394,
+        297
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        459,
+        285,
+        812,
+        394
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        372,
+        305,
+        395,
+        328
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        14,
+        308,
+        64,
+        321
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        153,
+        309,
+        187,
+        323
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        187,
+        309,
+        231,
+        326
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        257,
+        311,
+        299,
+        326
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        89,
+        345,
+        142,
+        398
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        174,
+        350,
+        235,
+        365
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        351,
+        395,
+        365
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        419,
+        355,
+        457,
+        393
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        360,
+        372,
+        395,
+        396
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        180,
+        377,
+        245,
+        393
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        247,
+        377,
+        299,
+        391
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        301,
+        377,
+        349,
+        391
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        460,
+        399,
+        848,
+        440
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        420,
+        401,
+        455,
+        440
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        93,
+        413,
+        142,
+        466
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        153,
+        419,
+        187,
+        433
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        419,
+        395,
+        433
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        205,
+        445,
+        257,
+        461
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        459,
+        445,
+        942,
+        505
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        175,
+        447,
+        204,
+        461
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        279,
+        447,
+        319,
+        459
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        418,
+        465,
+        457,
+        505
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        89,
+        481,
+        142,
+        534
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        283,
+        486,
+        346,
+        501
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        175,
+        487,
+        245,
+        501
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        487,
+        395,
+        501
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        360,
+        508,
+        395,
+        532
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        459,
+        510,
+        629,
+        551
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        420,
+        512,
+        458,
+        551
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        279,
+        513,
+        337,
+        529
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        178,
+        515,
+        277,
+        527
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        88,
+        549,
+        142,
+        602
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        175,
+        555,
+        216,
+        572
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        218,
+        555,
+        272,
+        572
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        555,
+        395,
+        569
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        459,
+        556,
+        603,
+        597
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        419,
+        558,
+        457,
+        596
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        345,
+        576,
+        395,
+        600
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        153,
+        581,
+        218,
+        595
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        220,
+        581,
+        284,
+        595
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        285,
+        581,
+        337,
+        595
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        459,
+        602,
+        920,
+        799
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        99,
+        618,
+        132,
+        668
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        198,
+        619,
+        220,
+        641
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        283,
+        622,
+        345,
+        640
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        623,
+        394,
+        637
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        223,
+        625,
+        281,
+        640
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        368,
+        644,
+        395,
+        668
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        176,
+        645,
+        198,
+        667
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        258,
+        648,
+        362,
+        666
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        201,
+        651,
+        257,
+        666
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        89,
+        685,
+        142,
+        738
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        175,
+        691,
+        212,
+        705
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        214,
+        691,
+        245,
+        705
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        691,
+        394,
+        705
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        353,
+        712,
+        395,
+        736
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        153,
+        717,
+        192,
+        731
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        260,
+        719,
+        294,
+        734
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1384,
+        746,
+        1566,
+        762
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1336,
+        747,
+        1383,
+        762
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1568,
+        747,
+        1635,
+        760
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        89,
+        753,
+        142,
+        806
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        192,
+        759,
+        222,
+        773
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        234,
+        759,
+        263,
+        773
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        265,
+        759,
+        350,
+        773
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        759,
+        395,
+        773
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        418,
+        761,
+        458,
+        798
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1228,
+        770,
+        1306,
+        784
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1369,
+        770,
+        1438,
+        783
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1627,
+        770,
+        1691,
+        785
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1312,
+        771,
+        1501,
+        797
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1445,
+        771,
+        1606,
+        799
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        372,
+        779,
+        395,
+        802
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        165,
+        782,
+        219,
+        799
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        321,
+        782,
+        354,
+        797
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        286,
+        783,
+        320,
+        800
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1607,
+        784,
+        1692,
+        798
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1228,
+        785,
+        1354,
+        799
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1305,
+        798,
+        1389,
+        813
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1389,
+        798,
+        1501,
+        812
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1572,
+        798,
+        1656,
+        812
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1502,
+        799,
+        1566,
+        811
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1228,
+        801,
+        1265,
+        825
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        459,
+        804,
+        942,
+        883
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        152,
+        805,
+        215,
+        820
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        217,
+        806,
+        271,
+        823
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        317,
+        808,
+        353,
+        822
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1228,
+        826,
+        1306,
+        840
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1312,
+        826,
+        1594,
+        853
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1369,
+        826,
+        1438,
+        839
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1620,
+        826,
+        1692,
+        841
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1495,
+        840,
+        1599,
+        855
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1600,
+        840,
+        1692,
+        854
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        93,
+        841,
+        142,
+        894
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1229,
+        841,
+        1347,
+        855
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        174,
+        847,
+        219,
+        861
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        847,
+        395,
+        861
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1298,
+        854,
+        1382,
+        869
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1382,
+        854,
+        1494,
+        868
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1565,
+        854,
+        1649,
+        868
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1495,
+        855,
+        1559,
+        867
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1228,
+        857,
+        1258,
+        881
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        368,
+        868,
+        395,
+        892
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1292,
+        869,
+        1348,
+        881
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        152,
+        873,
+        209,
+        890
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1228,
+        882,
+        1501,
+        909
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1228,
+        882,
+        1307,
+        897
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1502,
+        883,
+        1692,
+        897
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        459,
+        888,
+        942,
+        982
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        89,
+        908,
+        142,
+        963
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1228,
+        910,
+        1501,
+        937
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1228,
+        910,
+        1307,
+        925
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1502,
+        911,
+        1692,
+        925
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        232,
+        914,
+        286,
+        929
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        174,
+        915,
+        231,
+        929
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        358,
+        915,
+        395,
+        929
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        360,
+        936,
+        395,
+        960
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "button",
+      "bbox": [
+        1227,
+        938,
+        1321,
+        965
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1445,
+        938,
+        1613,
+        953
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1620,
+        938,
+        1692,
+        953
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1305,
+        939,
+        1370,
+        951
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1375,
+        940,
+        1432,
+        953
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        152,
+        941,
+        189,
+        955
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        191,
+        941,
+        227,
+        955
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        266,
+        941,
+        312,
+        958
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        228,
+        943,
+        264,
+        958
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        313,
+        943,
+        354,
+        955
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        418,
+        944,
+        460,
+        981
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1320,
+        966,
+        1384,
+        979
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1389,
+        966,
+        1578,
+        981
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        1592,
+        966,
+        1692,
+        981
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "button",
+      "bbox": [
+        1228,
+        967,
+        1319,
+        993
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        89,
+        977,
+        143,
+        1030
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        269,
+        979,
+        344,
+        1001
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "other",
+      "bbox": [
+        175,
+        982,
+        267,
+        1000
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1224,
+        994,
+        1412,
+        1009
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        1501,
+        994,
+        1685,
+        1009
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "button",
+      "bbox": [
+        1410,
+        995,
+        1503,
+        1021
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        420,
+        1004,
+        443,
+        1030
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        152,
+        1005,
+        208,
+        1027
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "button",
+      "bbox": [
+        303,
+        1005,
+        395,
+        1035
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        459,
+        1008,
+        496,
+        1022
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1228,
+        1009,
+        1292,
+        1021
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        510,
+        1010,
+        580,
+        1025
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        222,
+        1011,
+        302,
+        1023
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1319,
+        1011,
+        1384,
+        1023
+      ],
+      "confidence": 0.5,
+      "source": "heuristic"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        52,
+        12,
+        111,
+        24
+      ],
+      "text": "Terminal",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        129,
+        12,
+        164,
+        24
+      ],
+      "text": "Shell",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        178,
+        12,
+        206,
+        24
+      ],
+      "text": "Edit",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        223,
+        12,
+        256,
+        24
+      ],
+      "text": "View",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        106,
+        89,
+        156,
+        104
+      ],
+      "text": "Search",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        99,
+        158,
+        131,
+        181
+      ],
+      "text": "BK",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        273,
+        11,
+        325,
+        25
+      ],
+      "text": "Window",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        340,
+        12,
+        372,
+        27
+      ],
+      "text": "Help",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        170,
+        67,
+        186
+      ],
+      "text": "All chats",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        240,
+        64,
+        253
+      ],
+      "text": "football",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        307,
+        67,
+        320
+      ],
+      "text": "Founder",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        24,
+        325,
+        54,
+        337
+      ],
+      "text": "chat",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        27,
+        392,
+        54,
+        404
+      ],
+      "text": "Edit",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        94,
+        771,
+        136,
+        784
+      ],
+      "text": "ÜHUB",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        154,
+        146,
+        251,
+        164
+      ],
+      "text": "Виталик Куст",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        151,
+        173,
+        328,
+        188
+      ],
+      "text": "Incoming call (14 min 36 s)",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        146,
+        395,
+        161
+      ],
+      "text": "15:31",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        213,
+        395,
+        230
+      ],
+      "text": "* Любительский футбол ... 15:23",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        153,
+        239,
+        236,
+        259
+      ],
+      "text": "Czyk Czyryk:",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        263,
+        240,
+        285,
+        255
+      ],
+      "text": "GIF",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        362,
+        243,
+        390,
+        255
+      ],
+      "text": "1266",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        282,
+        395,
+        300
+      ],
+      "text": "s; Футбол Прага | Футбол.. 15:22",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        151,
+        307,
+        298,
+        325
+      ],
+      "text": "$$$$ joined the group",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        349,
+        236,
+        364
+      ],
+      "text": "3: Wilanów",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        151,
+        377,
+        352,
+        392
+      ],
+      "text": "V.A: АРЕНДА / ОБМЕН ПАРК...",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        352,
+        395,
+        364
+      ],
+      "text": "15:181",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        151,
+        419,
+        188,
+        434
+      ],
+      "text": "Irina",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        419,
+        395,
+        431
+      ],
+      "text": "15:161",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        154,
+        444,
+        397,
+        461
+      ],
+      "text": "Ок щас выйдет на связь вот тол к...",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        486,
+        350,
+        501
+      ],
+      "text": "3: Вакансии • AI • вайбко...",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        486,
+        395,
+        501
+      ],
+      "text": "15:15",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        151,
+        513,
+        352,
+        528
+      ],
+      "text": "ИИ иевангиелист: #лидген ...",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        365,
+        513,
+        390,
+        526
+      ],
+      "text": "660",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        553,
+        290,
+        570
+      ],
+      "text": "* Cyber Georgia IT",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        154,
+        580,
+        338,
+        598
+      ],
+      "text": "Николай: Решение Совет....",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        555,
+        395,
+        568
+      ],
+      "text": "15:13",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        347,
+        580,
+        390,
+        598
+      ],
+      "text": "11545",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        201,
+        620,
+        347,
+        637
+      ],
+      "text": "•) картель \"Футбо...",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        198,
+        647,
+        362,
+        665
+      ],
+      "text": "картель \"Футбольные...",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        622,
+        395,
+        635
+      ],
+      "text": "15:071",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        690,
+        248,
+        705
+      ],
+      "text": "2: e/acc chat",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        154,
+        717,
+        340,
+        732
+      ],
+      "text": "е/асс: Я же не в укор :) В с...",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        690,
+        397,
+        704
+      ],
+      "text": "15:04",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        154,
+        757,
+        395,
+        774
+      ],
+      "text": "¿2: 0 Hub | THE COMMUNI... 14:59",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        154,
+        781,
+        248,
+        796
+      ],
+      "text": "# Общий чат",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        265,
+        779,
+        355,
+        799
+      ],
+      "text": "• Ищу тебя",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        151,
+        804,
+        355,
+        821
+      ],
+      "text": "Veronika: привет! а есть зде...",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        845,
+        221,
+        862
+      ],
+      "text": "2: AIAIAI",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        153,
+        872,
+        231,
+        889
+      ],
+      "text": "Андрей: Да",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        846,
+        397,
+        861
+      ],
+      "text": "14:53",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        375,
+        873,
+        390,
+        886
+      ],
+      "text": "16",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        913,
+        288,
+        928
+      ],
+      "text": "*: Warsaw football",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        151,
+        940,
+        357,
+        958
+      ],
+      "text": "Vova: Hello guys. Maybe som...",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        355,
+        915,
+        395,
+        928
+      ],
+      "text": "14:531",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        156,
+        982,
+        347,
+        1000
+      ],
+      "text": "•; Футбольный Берлин С",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        154,
+        1007,
+        181,
+        1022
+      ],
+      "text": "Alex",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        211,
+        1010,
+        342,
+        1023
+      ],
+      "text": "К сожалению сегод",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        243,
+        1064,
+        270,
+        1084
+      ],
+      "text": "30",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        720,
+        46,
+        894,
+        59
+      ],
+      "text": "Vadim Delendik - (308105) |",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        422,
+        78,
+        549,
+        94
+      ],
+      "text": "Vadim Delendik *",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        422,
+        101,
+        579,
+        116
+      ],
+      "text": "last seen 8 minutes ago",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        427,
+        136,
+        539,
+        151
+      ],
+      "text": "Pinned message",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        425,
+        153,
+        1053,
+        171
+      ],
+      "text": "В среднем за все время, думаю в фаворитах Арсенал. А так всегда за слабейшего и интригу",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        427,
+        367,
+        449,
+        379
+      ],
+      "text": "VD",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        427,
+        479,
+        449,
+        491
+      ],
+      "text": "VD",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        427,
+        570,
+        449,
+        583
+      ],
+      "text": "VD",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        429,
+        856,
+        449,
+        868
+      ],
+      "text": "VD",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        934,
+        190,
+        1091,
+        210
+      ],
+      "text": "XA Translate to English",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        218,
+        884,
+        228
+      ],
+      "text": "виталик там поехал последнии снег ловить, даваи оез него",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        235,
+        929,
+        250
+      ],
+      "text": "созвонимся если он в течении часа не ответит, ты через час - два",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        255,
+        740,
+        268
+      ],
+      "text": "сможешь, если я правильно понимаю",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        867,
+        257,
+        929,
+        270
+      ],
+      "text": "15:07 Л",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        300,
+        499,
+        312
+      ],
+      "text": "ok",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        504,
+        302,
+        546,
+        317
+      ],
+      "text": "15:09",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        337,
+        797,
+        354
+      ],
+      "text": "я до вечера свободен, потом пойду на встречу",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        763,
+        372,
+        802,
+        384
+      ],
+      "text": "15:091",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        411,
+        837,
+        431
+      ],
+      "text": "Виталик вышел на связь, в 17:00 тебе ок? 15:19 л",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        459,
+        929,
+        476
+      ],
+      "text": "у меня уже 19, поздновато будет, хочу уже в ресторанчике сидеть",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        478,
+        648,
+        493
+      ],
+      "text": "и думать про выходные)",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        892,
+        484,
+        932,
+        496
+      ],
+      "text": "15:19",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        523,
+        546,
+        541
+      ],
+      "text": "а ты где)?",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        554,
+        528,
+        601,
+        543
+      ],
+      "text": "15:19",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        570,
+        544,
+        583
+      ],
+      "text": "в Минске",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        551,
+        573,
+        594,
+        590
+      ],
+      "text": "15:19",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        615,
+        698,
+        630
+      ],
+      "text": "я в 17 по польскому имел ввиду",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        708,
+        618,
+        748,
+        632
+      ],
+      "text": "15:19",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        514,
+        657,
+        554,
+        672
+      ],
+      "text": "15:19",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        692,
+        564,
+        707
+      ],
+      "text": "18-18:30 ok?",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        571,
+        697,
+        611,
+        712
+      ],
+      "text": "15:20",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        732,
+        835,
+        747
+      ],
+      "text": "или раньше мы с тобой а потом я сам с Виталиком?",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        842,
+        737,
+        882,
+        749
+      ],
+      "text": "15:20",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        769,
+        651,
+        787
+      ],
+      "text": "в общем как тебе удобно",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        661,
+        776,
+        700,
+        789
+      ],
+      "text": "15:201",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        816,
+        907,
+        834
+      ],
+      "text": "давайте уже втроем. просто как он будет доступен - пинганите",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        838,
+        516,
+        851
+      ],
+      "text": "ПЛИЗ.",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        853,
+        795,
+        871
+      ],
+      "text": "Я еще тут не букал ресторанчик, мот и успеем",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        892,
+        858,
+        929,
+        873
+      ],
+      "text": "15:21",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        900,
+        671,
+        918
+      ],
+      "text": "а ок) может и успеем 15:21",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        938,
+        922,
+        955
+      ],
+      "text": "Виталик с 17 до 18 по Минску напишет и думаю к 18 созвонимся",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        867,
+        958,
+        904,
+        970
+      ],
+      "text": "15•32|",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        459,
+        1007,
+        579,
+        1023
+      ],
+      "text": "Write a message...",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1056,
+        1059,
+        1086,
+        1079
+      ],
+      "text": "W",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1401,
+        12,
+        1424,
+        29
+      ],
+      "text": "(РУ",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1523,
+        12,
+        1540,
+        27
+      ],
+      "text": "Q",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1588,
+        11,
+        1697,
+        24
+      ],
+      "text": "Fri 30 Jan 15:32",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1630,
+        119,
+        1660,
+        131
+      ],
+      "text": "LLM",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1615,
+        233,
+        1682,
+        245
+      ],
+      "text": "creenshot",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1615,
+        248,
+        1705,
+        260
+      ],
+      "text": "-01...02.06.41",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1615,
+        342,
+        1700,
+        357
+      ],
+      "text": "erials for cold",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1615,
+        357,
+        1675,
+        372
+      ],
+      "text": "outreach",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1618,
+        498,
+        1660,
+        511
+      ],
+      "text": "alysis",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1618,
+        536,
+        1655,
+        548
+      ],
+      "text": "Certifien",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1617,
+        592,
+        1687,
+        608
+      ],
+      "text": "le cert.p12",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1618,
+        679,
+        1672,
+        692
+      ],
+      "text": "cert.p12",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1307,
+        747,
+        1687,
+        762
+      ],
+      "text": "2 — Python examples/step2_baseline.py --seconds 10 --e...",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        769,
+        1692,
+        784
+      ],
+      "text": "Requirement already satisfied: annotated-types>=0.6.0 in /Library/",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        784,
+        1692,
+        799
+      ],
+      "text": "Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-pack",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        799,
+        1687,
+        811
+      ],
+      "text": "ages (from pydantic>=2.7.0-›fastapi>=0.110.0->-r requirements.txt",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        811,
+        1349,
+        824
+      ],
+      "text": "(line 6)) (0.7.0)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        826,
+        1692,
+        841
+      ],
+      "text": "Requirement already satisfied: pydantic-core==2.27.2 in /Library/F",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        841,
+        1692,
+        853
+      ],
+      "text": "rameworks/Python.framework/Versions/3.13/lib/python3.13/site-packa",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        853,
+        1692,
+        869
+      ],
+      "text": "ges (from pydantic>=2.7.0->fastapi>=0.110.0->-r requirements.txt (",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        866,
+        1349,
+        881
+      ],
+      "text": "line 6)) (2.27.2)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        881,
+        1692,
+        896
+      ],
+      "text": "Downloading pyobjc_framework_vision-12.1-cp313-cp313-macosx_10_13_",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        896,
+        1384,
+        908
+      ],
+      "text": "universa12.wh1 (16 kB)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        910,
+        1692,
+        926
+      ],
+      "text": "Downloading pyobjc_framework_coreml-12.1-cp313-cp313-macosx_10_13_",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        938,
+        1692,
+        953
+      ],
+      "text": "Installing collected packages: pyobjc-framework-CoreML, Pyobjc-fra",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1225,
+        953,
+        1322,
+        965
+      ],
+      "text": "mework-Vision",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        965,
+        1692,
+        980
+      ],
+      "text": "Successfully installed pyobjc-framework-CoreML-12.1 pyobjc-framewo",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1227,
+        980,
+        1329,
+        992
+      ],
+      "text": "rk-Vision-12.1",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1225,
+        995,
+        1685,
+        1010
+      ],
+      "text": "lyukakust@Yukas-MacBook-Air 2 % python3 examples/step2_baseline.py",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1230,
+        1012,
+        1406,
+        1020
+      ],
+      "text": "--seconds 10 --every-h 10",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1409,
+        1007,
+        1518,
+        1023
+      ],
+      "text": "--small-width 0",
+      "confidence": 0.5,
+      "source": "ocr"
+    }
+  ]
+}

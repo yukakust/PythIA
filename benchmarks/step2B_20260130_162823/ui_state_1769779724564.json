@@ -1,0 +1,1661 @@
+{
+  "run": {
+    "name": "step2B_20260130_162823",
+    "ts_wall": 1769779716.937058,
+    "ts_monotonic": 476284.785998958
+  },
+  "frame": {
+    "width": 1710,
+    "height": 1107,
+    "process_width": 1710,
+    "process_height": 1107
+  },
+  "config": {
+    "detector_every_n_frames": 10,
+    "ocr_every_n_frames": 10,
+    "buffer": 8,
+    "prompt": "button . text field . icon . container .",
+    "box_threshold": 0.25,
+    "text_threshold": 0.25,
+    "device": "cpu"
+  },
+  "timing_ms": {
+    "ui_detector": 6257.910291024018,
+    "ocr": 1363.273874972947,
+    "e2e_latency": 7627.205208002124
+  },
+  "elements": [
+    {
+      "class": "field",
+      "bbox": [
+        10,
+        75,
+        1700,
+        1046
+      ],
+      "confidence": 0.35729995369911194,
+      "source": "groundingdino",
+      "phrase": "text field"
+    },
+    {
+      "class": "field",
+      "bbox": [
+        7,
+        16,
+        1702,
+        1069
+      ],
+      "confidence": 0.36304450035095215,
+      "source": "groundingdino",
+      "phrase": "text field"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        17,
+        9,
+        34,
+        29
+      ],
+      "text": "",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        49,
+        12,
+        114,
+        24
+      ],
+      "text": "Terminal",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        129,
+        12,
+        164,
+        24
+      ],
+      "text": "Shell",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        178,
+        11,
+        335,
+        24
+      ],
+      "text": "Edit View Window",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        340,
+        12,
+        372,
+        27
+      ],
+      "text": "Help",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1292,
+        9,
+        1697,
+        29
+      ],
+      "text": "GO PY Q 8 Fri 30 Jan 16:28",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        313,
+        59,
+        377,
+        71
+      ],
+      "text": "GITHUB!!!",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        39,
+        109,
+        72,
+        121
+      ],
+      "text": "Chat",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        121,
+        109,
+        169,
+        121
+      ],
+      "text": "Cowork|",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        251,
+        116,
+        1690,
+        134
+      ],
+      "text": "2 - Python examples/step2_groundingdino.py --seconds 10 --every-n 10 --small-width 0 --device cpu --model-config ~/Desktop/LLM/2/.venv_dino/lib/python3.11/site-packages/groundingdino/config/GroundingDINO_SwinT_O….",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        198,
+        141,
+        370,
+        156
+      ],
+      "text": "model = build_func(args)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        17,
+        156,
+        111,
+        171
+      ],
+      "text": "+ New chat",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        168,
+        1322,
+        183
+      ],
+      "text": "File \"/Users/yukakust/Desktop/LLM/2/.venv_dino/lib/python3.11/site-packages/groundingdino/models/GroundingDIN0/groundingdino.py\", line 388, in build_groundingdino",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        198,
+        183,
+        355,
+        196
+      ],
+      "text": "model = GroundingDINO(",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        42,
+        190,
+        92,
+        203
+      ],
+      "text": "Search",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        44,
+        223,
+        86,
+        235
+      ],
+      "text": "Chats",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        210,
+        1245,
+        225
+      ],
+      "text": "File \"/Users/yukakust/Desktop/LLM/2/.venv_dino/lib/python3.11/site-packages/groundingdino/models/GroundingDIN0/groundingdino.py\", line 111, in __init__",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        198,
+        225,
+        265,
+        238
+      ],
+      "text": "self.bert",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        280,
+        225,
+        544,
+        238
+      ],
+      "text": "BertModelWarper(bert_model=self.bert)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        44,
+        255,
+        101,
+        270
+      ],
+      "text": "Projects",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        252,
+        1217,
+        268
+      ],
+      "text": "File \"/Users/yukakust/Desktop/LLM/2/.venv_dino/lib/python3.11/site-packages/groundingdino/models/GroundingDIN0/bertwarper.py\", line 29, in __init__",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        198,
+        267,
+        345,
+        280
+      ],
+      "text": "self.get_head_mask =",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        345,
+        268,
+        516,
+        280
+      ],
+      "text": "bert_model.get_head_mask",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        287,
+        106,
+        302
+      ],
+      "text": "85 Artifacts",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        295,
+        1098,
+        310
+      ],
+      "text": "File \"/Users/yukakust/Desktop/LLM/2/.venv_dino/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1965, in __getattr__",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        198,
+        310,
+        350,
+        322
+      ],
+      "text": "raise AttributeError(",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        280,
+        322,
+        641,
+        337
+      ],
+      "text": "'BertModel' object has no attribute 'get_head_mask'",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        332,
+        62,
+        345
+      ],
+      "text": "Starred",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        337,
+        432,
+        349
+      ],
+      "text": "Exception in thread capture-pipeline:",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        349,
+        412,
+        364
+      ],
+      "text": "Traceback (most recent call last):",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        364,
+        82,
+        380
+      ],
+      "text": "GITHUB!!!",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        364,
+        1232,
+        379
+      ],
+      "text": "File \"/opt/homebrew/Cellar/python@3.11/3.11.14/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading-py\", line 1045, in _bootstrap_inner",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        379,
+        685,
+        392
+      ],
+      "text": "(.venv_dino) yukakust@Yukas-MacBook-Air 2 % pip uninstall -y transformers",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        397,
+        67,
+        412
+      ],
+      "text": "Gennie",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        392,
+        370,
+        407
+      ],
+      "text": "(pip install \"transformers<5\"",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        406,
+        504,
+        419
+      ],
+      "text": "Found existing installation: transformers 5.0.0",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        421,
+        397,
+        434
+      ],
+      "text": "Uninstalling transformers-5.0.0:",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        429,
+        169,
+        446
+      ],
+      "text": "Манифест вайбкодер:",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        434,
+        489,
+        446
+      ],
+      "text": "Successfully uninstalled transformers-5.0.0",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        449,
+        350,
+        461
+      ],
+      "text": "Collecting transformers<5",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        464,
+        171,
+        479
+      ],
+      "text": "Мессенджер нового пс",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        464,
+        643,
+        476
+      ],
+      "text": "Downloading transformers-4.57.6-py3-none-any.whl.metadata (43 kB)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        478,
+        469,
+        486
+      ],
+      "text": "Requirement already satisfied: filelock in",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        472,
+        474,
+        979,
+        491
+      ],
+      "text": "•/.venv_dino/lib/python3.11/site-packages (from transformers<5) (3.20.3)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        12,
+        496,
+        32,
+        508
+      ],
+      "text": "1D|",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        491,
+        601,
+        503
+      ],
+      "text": "Collecting huggingface-hub<1.0,>=0.34.0 (from transformers<5)",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        503,
+        663,
+        518
+      ],
+      "text": "Downloading huggingface_hub-0.36.0-py3-none-any.whl.metadata (14 kB)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        518,
+        994,
+        533
+      ],
+      "text": "Requirement already satisfied: numpy>=1.17 in ./.venv_dino/lib/python3.11/site-packages (from transformers<5) (2.4.1)",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        528,
+        116,
+        546
+      ],
+      "text": "РУЧКИ ДЛЯ АІ",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        533,
+        1011,
+        546
+      ],
+      "text": "Requirement already satisfied: packaging>=20.0 in ./.venv_dino/lib/python3.11/site-packages (from transformers<5) (26.0)",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        170,
+        551,
+        251,
+        555
+      ],
+      "text": "eaten T",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        251,
+        544,
+        991,
+        559
+      ],
+      "text": "already satisfied: pyyaml>=5.1 in ./.venv_dino/lib/python3.11/site-packages (from transformers<5) (6.0.3)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        563,
+        52,
+        575
+      ],
+      "text": "brain",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        560,
+        385,
+        573
+      ],
+      "text": "Requirement already satisfied:",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        385,
+        560,
+        1063,
+        573
+      ],
+      "text": "regex!=2019.12.17 in./.venv_dino/lib/python3.11/site-packages (from transformers<5) (2026.1.15)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        573,
+        979,
+        588
+      ],
+      "text": "Requirement already satisfied: requests in ./.venv_dino/lib/python3.11/site-packages (from transformers<5) (2.32.5)",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        595,
+        141,
+        610
+      ],
+      "text": "MARKETING brain",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        593,
+        248,
+        598
+      ],
+      "text": "recurenent",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        385,
+        588,
+        1113,
+        603
+      ],
+      "text": "tokenizers<=0.23.0,>=0.22.0 in ./.venv_dino/lib/python3.11/site-packages (from transformers<5) (0.22.2)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        603,
+        248,
+        615
+      ],
+      "text": "Requirement",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        387,
+        603,
+        1041,
+        618
+      ],
+      "text": "safetensors>=0.4.3 in ./.venv_dino/lib/python3.11/site-packages (from transformers<5) (0.7.0)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        618,
+        248,
+        630
+      ],
+      "text": "Requirement",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        256,
+        618,
+        305,
+        627
+      ],
+      "text": "already",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        387,
+        620,
+        479,
+        628
+      ],
+      "text": "tadm>=4.2/ 1n",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        487,
+        615,
+        777,
+        630
+      ],
+      "text": "./.venv_dino/lib/python3.11/site-packages",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        780,
+        618,
+        932,
+        628
+      ],
+      "text": "(from transformers<5)",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        932,
+        615,
+        994,
+        627
+      ],
+      "text": "(4.67.1)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        627,
+        89,
+        643
+      ],
+      "text": "Al person 1",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        635,
+        246,
+        640
+      ],
+      "text": "Kecurenent",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        387,
+        630,
+        1257,
+        645
+      ],
+      "text": "fsspec>=2023.5.0 in ./.venv_dino/lib/python3.11/site-packages (from huggingface-hub<1.0,>=0.34.0->transformers<5) (2026.1.0)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        645,
+        251,
+        657
+      ],
+      "text": "Requirement",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        660,
+        77,
+        675
+      ],
+      "text": "REALITY",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        662,
+        246,
+        667
+      ],
+      "text": "Redlin rement",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        256,
+        645,
+        305,
+        657
+      ],
+      "text": "already",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        265,
+        660,
+        305,
+        670
+      ],
+      "text": "Lready",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        310,
+        645,
+        382,
+        657
+      ],
+      "text": "satisfied:",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        310,
+        657,
+        382,
+        672
+      ],
+      "text": "satisfied:",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        387,
+        645,
+        1314,
+        657
+      ],
+      "text": "typing-extensions>=3.7.4.3 in ./.venv_dino/lib/python3.11/site-packages (from huggingface-hub<1.0,>=0.34.0->transformers<5) (4.15.0)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        387,
+        657,
+        1265,
+        672
+      ],
+      "text": "hf-xet<2.0.0,>=1.1.3 in ./.venv_dino/lib/python3.11/site-packages (from huggingface-hub<1.0,>=0.34.0-transformers<5) (1.2.0)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        677,
+        246,
+        682
+      ],
+      "text": "Kesulenent",
+      "confidence": 0.30000001192092896,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        687,
+        251,
+        699
+      ],
+      "text": "Requirement",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        253,
+        687,
+        310,
+        699
+      ],
+      "text": "already",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        308,
+        687,
+        382,
+        699
+      ],
+      "text": "satisfied:",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        387,
+        672,
+        1155,
+        687
+      ],
+      "text": "charset_normalizer<4,>=2 in ./.venv_dino/lib/python3.11/site-packages (from requests->transformers<5) (3.4.4)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        387,
+        687,
+        499,
+        700
+      ],
+      "text": "idna<4,>=2.5 in",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        502,
+        687,
+        1063,
+        700
+      ],
+      "text": "•/. venv_dino/lib/python3.11/site-packages (from requests->transformers<5) (3.11)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        694,
+        77,
+        710
+      ],
+      "text": "pinock.io",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        704,
+        248,
+        712
+      ],
+      "text": "Recurrement",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        714,
+        251,
+        727
+      ],
+      "text": "Requirement",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        256,
+        699,
+        1113,
+        714
+      ],
+      "text": "already satisfied: urllib3<3,>=1.21.1 in ./.venv_dino/lib/python3.11/site-packages (from requests->transformers<5) (2.6.3)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        251,
+        714,
+        385,
+        727
+      ],
+      "text": "already satisfied:",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        385,
+        714,
+        539,
+        727
+      ],
+      "text": "certifi>=2017.4.17 in",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        726,
+        82,
+        742
+      ],
+      "text": "HYDE 4.0",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        729,
+        251,
+        742
+      ],
+      "text": "Downloading",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        539,
+        714,
+        1130,
+        729
+      ],
+      "text": "•/.venv_dino/lib/python3.11/site-packages (from requests->transformers<5) (2026.1.4)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        253,
+        729,
+        514,
+        742
+      ],
+      "text": "transformers-4.57.6-py3-none-any.whl",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        514,
+        727,
+        579,
+        742
+      ],
+      "text": "(12.0 MB)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        477,
+        742,
+        658,
+        754
+      ],
+      "text": "12.0/12.0 MB 1.1 MB/s eta",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        658,
+        742,
+        713,
+        754
+      ],
+      "text": "0:00:00",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        759,
+        171,
+        774
+      ],
+      "text": "P2P-сеть в семье: нест",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        757,
+        594,
+        769
+      ],
+      "text": "Downloading huggingface_hub-0.36.0-py3-none-any.whl (566 kB)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        479,
+        769,
+        643,
+        782
+      ],
+      "text": "566.1/566.1 kB 1.4 MB/s",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        643,
+        771,
+        673,
+        781
+      ],
+      "text": "eta",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        784,
+        504,
+        799
+      ],
+      "text": "Installing collected packages: huggingface-hub,",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        794,
+        94,
+        806
+      ],
+      "text": "Vibecoders",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        504,
+        789,
+        596,
+        794
+      ],
+      "text": "manstormers",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        183,
+        799,
+        447,
+        811
+      ],
+      "text": "Attempting uninstall: huggingface-hub",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        198,
+        811,
+        551,
+        826
+      ],
+      "text": "Found existing installation: huggingface_hub 1.3.5",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        198,
+        826,
+        447,
+        839
+      ],
+      "text": "Uninstalling huggingface_hub-1.3.5:",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        838,
+        64,
+        851
+      ],
+      "text": "Recents",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        211,
+        841,
+        303,
+        853
+      ],
+      "text": "Successfully",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        300,
+        841,
+        539,
+        854
+      ],
+      "text": "uninstalled huggingface_hub-1.3.5",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        853,
+        631,
+        869
+      ],
+      "text": "Successfully installed huggingface-hub-0.36.0 transformers-4.57.6",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        876,
+        169,
+        893
+      ],
+      "text": "Фокус на компьютер в",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        881,
+        581,
+        896
+      ],
+      "text": "[notice] A new release of pip is available: 24.3.1 → 25.3",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        896,
+        425,
+        911
+      ],
+      "text": "[notice] To update, run: pip install",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        910,
+        929,
+        926
+      ],
+      "text": "Пять фактов содной rI(. venv_dino) yukakust@Yukas-MacBook-Air 2 % python -c \"import transformers; print(transformers.__version__)\"",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        943,
+        169,
+        958
+      ],
+      "text": "Число на калькулятор",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        938,
+        524,
+        953
+      ],
+      "text": "[(.venv_dino) yukakust@Yukas-MacBook-Air 2 % python",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        524,
+        938,
+        1695,
+        953
+      ],
+      "text": "examples/step2_groundingdino.py --seconds 10 --every-n 10 --small-width 0 --device cpu --model-config /Users/yukakust/Desktop/LLM/2/.venv_dino/lib/python3.11/site-pac)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        950,
+        1098,
+        965
+      ],
+      "text": "kages/groundingdino/config/GroundingDINO_SwinT_OGC.py --model-ckpt /Users/yukakust/Desktop/LLM/2/weights/groundingdino_swint_ogc.pth",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        965,
+        534,
+        980
+      ],
+      "text": "FutureWarning: Importing from timm.models.layers is",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        534,
+        968,
+        743,
+        980
+      ],
+      "text": "deprecated, please import via",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        743,
+        968,
+        825,
+        980
+      ],
+      "text": "timm. layers",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        980,
+        477,
+        993
+      ],
+      "text": "UserWarning: Failed to load custom C++ ops.",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        474,
+        980,
+        656,
+        995
+      ],
+      "text": "Running on CPU mode Only!",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        64,
+        990,
+        134,
+        1003
+      ],
+      "text": "Yuka Kust",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        64,
+        1007,
+        114,
+        1023
+      ],
+      "text": "Pro plan",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        169,
+        995,
+        536,
+        1008
+      ],
+      "text": "UserWarning: torch.meshgrid: in an upcoming release,",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        539,
+        995,
+        894,
+        1008
+      ],
+      "text": "it will be required to pass the indexing argument.",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        897,
+        995,
+        1680,
+        1008
+      ],
+      "text": "(Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/TensorShape.cpp: 4383.)",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        1007,
+        469,
+        1023
+      ],
+      "text": "final text_encoder_type: bert-base-uncased",
+      "confidence": 0.5,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        243,
+        1064,
+        270,
+        1084
+      ],
+      "text": "30",
+      "confidence": 1.0,
+      "source": "ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1158,
+        1054,
+        1178,
+        1087
+      ],
+      "text": "?",
+      "confidence": 0.5,
+      "source": "ocr"
+    }
+  ]
+}

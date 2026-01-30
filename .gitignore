@@ -8,7 +8,11 @@ __pycache__/
 
 # Virtual env
 .venv/
+.venv_dino/
 venv/
+
+# Local model weights (keep benchmarks committed separately)
+weights/
 
 # IDE
 .vscode/
