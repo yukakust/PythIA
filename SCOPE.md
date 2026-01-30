@@ -1,22 +1,22 @@
 # TOTAL_SCOPE
-Сделать vision-слой, который в реальном времени понимает, что на экране, и отдаёт JSON со структурой UI:
-- Захват экрана (30 fps)
-- Очередь/буфер кадров
-- Preprocess (в т.ч. опциональный downscale)
-- Детекция UI-элементов (bbox + class)
-- Трекинг (stable_id между кадрами)
-- OCR текста (по bbox/по событию + кеш)
-- Сборка структуры (плоский список и/или UI tree)
-- JSON-схема и stream API
-- Метрики (fps/latency) + отладка
+Build a vision layer that understands what is on the screen in real time and outputs structured UI JSON:
+- Screen capture (30 fps)
+- Frame queue/buffer
+- Preprocess (including optional downscale)
+- UI element detection (bbox + class)
+- Tracking (stable_id across frames)
+- OCR (bbox/event-based + cache)
+- Structure assembly (flat list and/or UI tree)
+- JSON schema and stream API
+- Metrics (fps/latency) + debugging
 
 # 1st_STEP_SCOPE
-Сделать модуль "Screen Capture Pipeline" (без ML):
-- Screen Capture: получать кадры экрана в реальном времени
-- Frame Buffer: хранить последние N кадров, не блокировать захват
-- Preprocess: делать вторую версию кадра для ML (например уменьшенную), но сохранять оригинал
-- Frame Stream API: простой интерфейс "получи последний кадр" и/или "подпишись на поток"
-Критерии готовности:
-- стабильные ~30 fps захвата
-- понятные таймстемпы
-- система не падает, если downstream тормозит (кадры пропускаются/перезаписываются в буфере)
+Build the "Screen Capture Pipeline" module (no ML):
+- Screen capture: receive screen frames in real time
+- Frame buffer: keep last N frames and never block capture
+- Preprocess: produce an optional ML-friendly resized frame while keeping the original
+- Frame stream API: simple "get latest frame" and/or "subscribe" interface
+Done criteria:
+- stable ~30 fps capture
+- clear timestamps
+- system does not crash if downstream is slow (frames are dropped/overwritten in the buffer)

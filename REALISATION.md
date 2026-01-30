@@ -1,31 +1,29 @@
-# REALISATION
+ # REALISATION
  
- ## Что уже сделано
- - Захват экрана в реальном времени через `mss` (`ScreenSource`)
- - Источник кадров как абстракция `VideoSource`
-   - `ScreenSource` (экран)
-   - `FileSource` (видеофайл)
- - Буфер кадров `FrameBuffer` (кольцевой, с drop при перегрузе)
- - Preprocess: храним `original` и опционально `small` версию + коэффициенты масштаба
- - Демка: `examples/capture_demo.py`
+ ## What is implemented
+ - Real-time screen capture via `mss` (`ScreenSource`)
+ - Frame source abstraction: `VideoSource`
+   - `ScreenSource` (screen)
+   - `FileSource` (video file)
+ - Frame buffer: `FrameBuffer` (ring buffer, drops on overload)
+ - Preprocess: keep `original` and optional `small` version + scale factors
+ - Demos:
+   - `examples/capture_demo.py`
+   - `examples/run_api.py`
  - HTTP API (FastAPI):
    - `GET /latest_frame_meta` (JSON)
    - `GET /latest_frame_jpeg` (JPEG)
-   - запуск: `examples/run_api.py`
+ - Packaging: `pyproject.toml` + `pip install -e .`
+ - Best-effort sequential stream for offline/video use: `frames_all()`
  
- ## Где срезали углы (пока нормально)
- - `FrameBuffer.frames()` выдаёт только последний новый кадр (а не все кадры подряд)
-   - Это ок для realtime/дебага, но для офлайн-обработки может понадобиться другой режим
- - Нет стабильного packaging (`pyproject.toml`), демо добавляет корень репо в `sys.path`
- - Нет тестов
- - `/latest_frame_jpeg` кодирует кадр в JPEG на CPU (Pillow) — это нормально для дебага, но не для высокого FPS наружу
+ ## Shortcuts (acceptable for now)
+ - `FrameBuffer.frames()` yields only the latest new frame (good for realtime/debug)
+ - `/latest_frame_jpeg` encodes JPEG on CPU (Pillow) — fine for debugging, not for high-FPS streaming
+ - No tests
  
- ## Что доделать позже
- - Нормальный пакет (`pyproject.toml`) + `pip install -e .`
- - Режим буфера "выдай все кадры" для офлайн пайплайна
- - Метрики latency по кадру (time since capture)
- - API слой:
-   - авторизация/лимиты
-   - WebSocket/SSE для стрима меты/событий
-   - более быстрый стрим кадров (например MJPEG или отдельный transport)
- - Детектор + трекер + OCR (следующие шаги)
+ ## TODO later
+ - API layer:
+   - auth/rate limits
+   - WebSocket/SSE for streaming meta/events
+   - faster video transport (e.g. MJPEG or another transport)
+ - UI detection + tracking + OCR (next big steps)
