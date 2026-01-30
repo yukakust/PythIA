@@ -2,7 +2,7 @@ mss>=9.0.0
 numpy>=1.26,<3.0
 opencv-python>=4.8.0.0
 pyobjc-framework-Quartz>=10.0; platform_system=="Darwin"
+pyobjc-framework-Vision>=10.0; platform_system=="Darwin"
 fastapi>=0.110.0
 uvicorn>=0.27.0
 pillow>=10.0.0
-rapidocr-onnxruntime>=1.4.0

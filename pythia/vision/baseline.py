@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -110,34 +111,104 @@ def _detect_ui_heuristics(rgb: np.ndarray) -> List[Dict[str, Any]]:
     return out_sorted
 
 
-class _RapidOCREngine:
+class _MacVisionOCREngine:
     def __init__(self, lang: str) -> None:
+        if sys.platform != "darwin":
+            raise RuntimeError("macOS Vision OCR is only available on Darwin")
+        if lang.lower() not in {"en", "eng"}:
+            raise ValueError("Only English OCR is supported in this baseline")
+
         try:
-            from rapidocr_onnxruntime import RapidOCR
+            import Quartz
+            import Vision
         except Exception as e:  # pragma: no cover
             raise RuntimeError(
-                "rapidocr-onnxruntime is not installed. Install it with: pip3 install rapidocr-onnxruntime"
+                "pyobjc Vision bindings are missing. Install: pip3 install pyobjc-framework-Vision"
             ) from e
 
-        self._engine = RapidOCR(lang=lang)
+        self._Quartz = Quartz
+        self._Vision = Vision
 
-    def run(self, bgr: np.ndarray) -> List[Dict[str, Any]]:
-        res, _ = self._engine(bgr)
+    def _to_cgimage(self, rgb: np.ndarray):
+        Quartz = self._Quartz
+
+        h, w = rgb.shape[:2]
+        rgba = np.zeros((h, w, 4), dtype=np.uint8)
+        rgba[:, :, :3] = rgb
+        rgba[:, :, 3] = 255
+
+        data = rgba.tobytes()
+        provider = Quartz.CGDataProviderCreateWithData(None, data, len(data), None)
+        colorspace = Quartz.CGColorSpaceCreateDeviceRGB()
+        bits_per_component = 8
+        bits_per_pixel = 32
+        bytes_per_row = w * 4
+        bitmap_info = Quartz.kCGBitmapByteOrderDefault | Quartz.kCGImageAlphaLast
+
+        cgimage = Quartz.CGImageCreate(
+            w,
+            h,
+            bits_per_component,
+            bits_per_pixel,
+            bytes_per_row,
+            colorspace,
+            bitmap_info,
+            provider,
+            None,
+            False,
+            Quartz.kCGRenderingIntentDefault,
+        )
+        return cgimage
+
+    def run(self, rgb: np.ndarray) -> List[Dict[str, Any]]:
+        Vision = self._Vision
+
+        h, w = rgb.shape[:2]
+        cgimage = self._to_cgimage(rgb)
+
+        results_holder: Dict[str, Any] = {"results": None, "error": None}
+
+        def _handler(request, error) -> None:  # noqa: ANN001
+            results_holder["error"] = error
+            results_holder["results"] = request.results()
+
+        req = Vision.VNRecognizeTextRequest.alloc().initWithCompletionHandler_(_handler)
+        req.setRecognitionLevel_(Vision.VNRequestTextRecognitionLevelAccurate)
+        req.setUsesLanguageCorrection_(True)
+
+        handler = Vision.VNImageRequestHandler.alloc().initWithCGImage_options_(cgimage, None)
+        ok = handler.performRequests_error_([req], None)
+        if not ok or results_holder["error"] is not None:
+            return []
+
         out: List[Dict[str, Any]] = []
-        if not res:
-            return out
+        results = results_holder["results"] or []
 
-        for item in res:
-            poly, text, conf = item
-            xs = [p[0] for p in poly]
-            ys = [p[1] for p in poly]
-            x1, y1, x2, y2 = int(min(xs)), int(min(ys)), int(max(xs)), int(max(ys))
+        for obs in results:
+            candidates = obs.topCandidates_(1)
+            if not candidates or len(candidates) == 0:
+                continue
+            cand = candidates[0]
+            text = str(cand.string())
+            conf = float(cand.confidence())
+
+            bb = obs.boundingBox()
+            x = float(bb.origin.x)
+            y = float(bb.origin.y)
+            bw = float(bb.size.width)
+            bh = float(bb.size.height)
+
+            x1 = int(x * w)
+            x2 = int((x + bw) * w)
+            y1 = int((1.0 - (y + bh)) * h)
+            y2 = int((1.0 - y) * h)
+
             out.append(
                 {
                     "class": "text",
                     "bbox": [x1, y1, x2, y2],
                     "text": text,
-                    "confidence": float(conf),
+                    "confidence": conf,
                     "source": "ocr",
                 }
             )
@@ -164,7 +235,7 @@ def _draw_overlay(rgb: np.ndarray, ui: List[Dict[str, Any]], ocr: List[Dict[str,
 
     for el in ocr:
         x1, y1, x2, y2 = el["bbox"]
-        cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 0), 2)
+        cv2.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
         txt = el.get("text")
         if txt:
             cv2.putText(
@@ -173,7 +244,7 @@ def _draw_overlay(rgb: np.ndarray, ui: List[Dict[str, Any]], ocr: List[Dict[str,
                 (x1, min(img.shape[0] - 5, y2 + 15)),
                 cv2.FONT_HERSHEY_SIMPLEX,
                 0.5,
-                (255, 0, 0),
+                (0, 0, 255),
                 1,
                 cv2.LINE_AA,
             )
@@ -190,7 +261,7 @@ def run_baseline_step2(
 ) -> Dict[str, Any]:
     _safe_mkdir(output_dir)
 
-    ocr_engine = _RapidOCREngine(lang=cfg.ocr_lang)
+    ocr_engine = _MacVisionOCREngine(lang=cfg.ocr_lang)
 
     start = time.perf_counter()
     capture_stats0 = pipeline.buffer.stats().produced
@@ -215,8 +286,7 @@ def run_baseline_step2(
         ui = _detect_ui_heuristics(frame.rgb)
         t1 = time.perf_counter()
 
-        bgr = cv2.cvtColor(frame.rgb, cv2.COLOR_RGB2BGR)
-        ocr_all = ocr_engine.run(bgr)
+        ocr_all = ocr_engine.run(frame.rgb)
         ocr = [x for x in ocr_all if x.get("confidence", 0.0) >= cfg.ocr_conf_threshold]
         t2 = time.perf_counter()
 
