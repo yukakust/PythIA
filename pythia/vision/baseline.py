@@ -235,7 +235,7 @@ def _draw_overlay(rgb: np.ndarray, ui: List[Dict[str, Any]], ocr: List[Dict[str,
 
     for el in ocr:
         x1, y1, x2, y2 = el["bbox"]
-        cv2.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
+        cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 0), 2)
         txt = el.get("text")
         if txt:
             cv2.putText(
@@ -244,7 +244,7 @@ def _draw_overlay(rgb: np.ndarray, ui: List[Dict[str, Any]], ocr: List[Dict[str,
                 (x1, min(img.shape[0] - 5, y2 + 15)),
                 cv2.FONT_HERSHEY_SIMPLEX,
                 0.5,
-                (0, 0, 255),
+                (255, 0, 0),
                 1,
                 cv2.LINE_AA,
             )
@@ -290,14 +290,18 @@ def run_baseline_step2(
         ocr = [x for x in ocr_all if x.get("confidence", 0.0) >= cfg.ocr_conf_threshold]
         t2 = time.perf_counter()
 
-        overlay = _draw_overlay(frame.rgb, ui, ocr)
+        overlay_ui = _draw_overlay(frame.rgb, ui, [])
+        overlay_ocr = _draw_overlay(frame.rgb, [], ocr)
+        overlay_both = _draw_overlay(frame.rgb, ui, ocr)
 
         latency_ms = max(0.0, (time.perf_counter() - frame.ts_monotonic) * 1000.0)
         latencies_ms.append(latency_ms)
 
         stamp = _now_ms()
         json_path = output_dir / f"ui_state_{stamp}.json"
-        img_path = output_dir / f"overlay_{stamp}.jpg"
+        img_ui_path = output_dir / f"overlay_ui_{stamp}.jpg"
+        img_ocr_path = output_dir / f"overlay_ocr_{stamp}.jpg"
+        img_both_path = output_dir / f"overlay_{stamp}.jpg"
 
         payload = {
             "run": {
@@ -325,9 +329,18 @@ def run_baseline_step2(
         }
 
         json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
-        cv2.imwrite(str(img_path), cv2.cvtColor(overlay, cv2.COLOR_RGB2BGR))
+        cv2.imwrite(str(img_ui_path), cv2.cvtColor(overlay_ui, cv2.COLOR_RGB2BGR))
+        cv2.imwrite(str(img_ocr_path), cv2.cvtColor(overlay_ocr, cv2.COLOR_RGB2BGR))
+        cv2.imwrite(str(img_both_path), cv2.cvtColor(overlay_both, cv2.COLOR_RGB2BGR))
 
-        artifacts.append({"ui_state": str(json_path), "overlay": str(img_path)})
+        artifacts.append(
+            {
+                "ui_state": str(json_path),
+                "overlay_ui": str(img_ui_path),
+                "overlay_ocr": str(img_ocr_path),
+                "overlay": str(img_both_path),
+            }
+        )
 
     elapsed = time.perf_counter() - start
     produced_total = pipeline.buffer.stats().produced - capture_stats0
