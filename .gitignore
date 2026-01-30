@@ -1,0 +1,14 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
