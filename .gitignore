@@ -19,4 +19,9 @@ weights/
 .idea/
 
 # Benchmarks artifacts (commit selectively)
-benchmarks/
+!benchmarks/
+benchmarks/*
+!benchmarks/omniparser_mode3_oneframe/
+!benchmarks/omniparser_mode3_oneframe/**
+!benchmarks/omniparser_mode1_oneframe_ocrfix2/
+!benchmarks/omniparser_mode1_oneframe_ocrfix2/**

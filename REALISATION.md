@@ -27,3 +27,13 @@
    - WebSocket/SSE for streaming meta/events
    - faster video transport (e.g. MJPEG or another transport)
  - UI detection + tracking + OCR (next big steps)
+
+ ## Vision benchmarks (Step2)
+ - Step2.A: baseline heuristics UI + macOS Vision OCR
+ - Step2.B: GroundingDINO UI + macOS Vision OCR
+ - Step2.C: OmniParser integration via `examples/step2_omniparser.py`
+   - mode=2: OmniParser UI + macOS Vision OCR
+   - mode=3: OmniParser UI+content + macOS Vision OCR
+   - mode=1: OmniParser UI + Omni OCR (PaddleOCR) + content
+
+ Results are appended into `Benchmarks_along_the_way.md` and visual artifacts are saved under `benchmarks/<run-name>/`.

@@ -1,0 +1,4542 @@
+{
+  "run": {
+    "name": "omniparser_mode1_oneframe_ocrfix2",
+    "ts_wall": 1769892169.956183,
+    "ts_monotonic": 6325.408742291
+  },
+  "frame": {
+    "width": 1710,
+    "height": 1107,
+    "process_width": 1710,
+    "process_height": 1107
+  },
+  "config": {
+    "detector_every_n_frames": 10,
+    "ocr_every_n_frames": 10,
+    "buffer": 8,
+    "mode": 1,
+    "max_frames": 1,
+    "box_threshold": 0.05,
+    "iou_threshold": 0.7,
+    "imgsz": 640
+  },
+  "timing_ms": {
+    "ui_detector": 355577.60450000025,
+    "ocr": 0.00016699959815014154,
+    "e2e_latency": 355593.2290840001
+  },
+  "elements": [
+    {
+      "class": "icon",
+      "bbox": [
+        311,
+        348,
+        612,
+        538
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Thought for 40 Thought for iis Ges cuntiox. ris py "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        68,
+        259,
+        211,
+        283
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "aelndsurt "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        63,
+        875,
+        209,
+        899
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "- "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        67,
+        282,
+        211,
+        305
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "h "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        613,
+        821,
+        788,
+        848
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "C "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        53,
+        458,
+        215,
+        481
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "a a "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        53,
+        436,
+        216,
+        459
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": " omniperser_mo. a "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        60,
+        657,
+        214,
+        679
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "> Osflns "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        54,
+        503,
+        215,
+        525
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "step28_20260. "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        66,
+        327,
+        213,
+        349
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "D a "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        54,
+        523,
+        218,
+        548
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "esarpliet  st8pC_20260 "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        56,
+        568,
+        217,
+        592
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "gitignore  Blencheark "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        54,
+        546,
+        217,
+        570
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": " Dythia eg0-info "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        53,
+        414,
+        216,
+        437
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": " omnigarser_mo. "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        60,
+        590,
+        216,
+        614
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "pypraject toml README.d "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        65,
+        348,
+        214,
+        371
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "G a "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        411,
+        821,
+        614,
+        849
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "VibeOps "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        58,
+        392,
+        214,
+        415
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "amniparse_mo "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        61,
+        370,
+        216,
+        394
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "omniperer_mo I "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        617,
+        544,
+        926,
+        573
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "bete the directory samallys "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        314,
+        585,
+        401,
+        683
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "s) lws] outh sace suth_5ac "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        241,
+        634,
+        309,
+        658
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "clientTeor [lacal-s cLestt "
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        943,
+        70,
+        1104,
+        107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Unloading or changing text."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        48,
+        986,
+        210,
+        1009
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A low pixel quality image or logo."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        58,
+        194,
+        212,
+        217
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        788,
+        211,
+        812
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Sticks or sprinkles."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        832,
+        211,
+        855
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Stickens"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        51,
+        964,
+        211,
+        988
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple font style logo or logo."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        66,
+        237,
+        211,
+        260
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        854,
+        210,
+        877
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Strikethrough"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        920,
+        209,
+        944
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or problem tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        63,
+        898,
+        208,
+        922
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or problem tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        810,
+        211,
+        833
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Sticks or write marks."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        46,
+        1008,
+        211,
+        1031
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple font style indicator."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        766,
+        211,
+        789
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Stickens are shown in a simple font."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        42,
+        102,
+        210,
+        128
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple waterfall function."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        61,
+        216,
+        211,
+        239
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        67,
+        304,
+        213,
+        327
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple marker or file marker."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1571,
+        39,
+        1705,
+        66
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or problem related to math."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1620,
+        969,
+        1698,
+        995
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Acceleration or writing."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        465,
+        70,
+        581,
+        105
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple simple application or logo."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1549,
+        968,
+        1620,
+        995
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Refresh or cancel the screen."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        55,
+        480,
+        213,
+        503
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        64,
+        700,
+        210,
+        723
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1435,
+        1080,
+        1516,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "VibOPS"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1519,
+        38,
+        1560,
+        65
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A person's profile or profile indicator."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        744,
+        210,
+        767
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1357,
+        1080,
+        1431,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A measurement tool indicating a percentage of 78."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        678,
+        212,
+        701
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1681,
+        1082,
+        1704,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        585,
+        70,
+        773,
+        106
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A spray bottle or spray bottle opener."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        528,
+        37,
+        555,
+        66
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        75,
+        722,
+        210,
+        745
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1,
+        116,
+        39,
+        153
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A search function."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        222,
+        823,
+        282,
+        848
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "OutPUT is typed in white letters."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        752,
+        42,
+        770,
+        64
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple circle shape."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1672,
+        1046,
+        1700,
+        1074
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple option to change the direction or direction."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        504,
+        38,
+        527,
+        66
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A cursor pointing to the right."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        3,
+        73,
+        39,
+        110
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple rectangle shape."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        634,
+        212,
+        657
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or problem related to writing."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        234,
+        1083,
+        252,
+        1106
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A circle or circle shape."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1664,
+        281,
+        1683,
+        300
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A low angle view or profile shot."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        62,
+        612,
+        215,
+        635
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        4,
+        160,
+        41,
+        198
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple symbol or design tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1493,
+        38,
+        1515,
+        64
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple symbol or icon."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        790,
+        822,
+        813,
+        846
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A low profile or increase speed."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        513,
+        108,
+        532,
+        126
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A purple light or shadow effect."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1466,
+        39,
+        1490,
+        63
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A rectangle shape with a slight angle."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1625,
+        281,
+        1642,
+        300
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple focus or icon."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1415,
+        41,
+        1437,
+        64
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A rectangle shape similar to a rectangle."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        909,
+        823,
+        933,
+        847
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry image of a propeller or propeller."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1644,
+        281,
+        1661,
+        300
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple rectangle shape."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        267,
+        1086,
+        280,
+        1103
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple simple setup or setup function."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        815,
+        821,
+        840,
+        845
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple icon or profile."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1171,
+        41,
+        1199,
+        65
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple marker or pointer pointer."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1610,
+        74,
+        1634,
+        103
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "white plus sign"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1682,
+        73,
+        1706,
+        101
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A close or cancel button."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1625,
+        1048,
+        1648,
+        1071
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1650,
+        1047,
+        1669,
+        1072
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple hand gesture or icon."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1634,
+        72,
+        1658,
+        103
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Refresh or restart function."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1441,
+        40,
+        1463,
+        64
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A square shape with a slight angle."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1658,
+        74,
+        1680,
+        101
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        612,
+        272,
+        677,
+        288
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry option that appears to be a bit blurry."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        841,
+        822,
+        865,
+        845
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        237,
+        41,
+        282
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple symbol or icon."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1516,
+        1082,
+        1551,
+        1106
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "The word \"Pro\" in a black background."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        220,
+        78,
+        239,
+        99
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A profile or icon."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        252,
+        1086,
+        264,
+        1104
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple symbol or icon."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        852,
+        258,
+        869,
+        274
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry image or profile."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        283,
+        1087,
+        293,
+        1103
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A black rectangle shape."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        906,
+        70,
+        932,
+        105
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        324,
+        41,
+        365
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Refresh or recycle."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        915,
+        677,
+        929,
+        690
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A cursor pointing to the right."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        882,
+        824,
+        904,
+        845
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "The last step or arrow."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        283,
+        40,
+        324
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        956,
+        181,
+        1072,
+        208
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or problem related to writing."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1675,
+        360,
+        1693,
+        382
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        898,
+        677,
+        914,
+        690
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        431,
+        259,
+        450,
+        272
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        365,
+        42,
+        408
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple icon or symbol."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        960,
+        1053,
+        972,
+        1065
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple white plus sign or symbol."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        837,
+        258,
+        850,
+        273
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        961,
+        213,
+        985,
+        235
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple marker or pinning function."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        42,
+        73,
+        209,
+        103
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple spray paint brush strokes."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        220,
+        308,
+        242,
+        326
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A lock or key inserted in a computer."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        875,
+        259,
+        932,
+        273
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry image or graph."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        770,
+        42,
+        784,
+        64
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple simple symbol."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        220,
+        288,
+        242,
+        307
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        881,
+        70,
+        908,
+        106
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1277,
+        1081,
+        1360,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "The number seventy."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        221,
+        272,
+        239,
+        289
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple icon or symbol."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        286,
+        824,
+        307,
+        847
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        706,
+        259,
+        720,
+        273
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        494,
+        40,
+        534
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple icon or symbol."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        244,
+        287,
+        304,
+        335
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A low pixel quality message or message box."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1058,
+        974,
+        1073,
+        990
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        1083,
+        37,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "a blurry arrow pointing downward."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        450,
+        41,
+        491
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "square button blank"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        198,
+        42,
+        237
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple icon or logo."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1675,
+        428,
+        1692,
+        452
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        441,
+        79,
+        460,
+        99
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A close or cancel function."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1551,
+        1080,
+        1680,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "The name of a website called Nidsurf.Soths."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1264,
+        114,
+        1697,
+        150
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry image or audio editing tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        221,
+        691,
+        238,
+        704
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        917,
+        693,
+        931,
+        703
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        792,
+        70,
+        883,
+        106
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A sticky note or note pad."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        809,
+        258,
+        821,
+        273
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        222,
+        328,
+        241,
+        343
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        201,
+        1081,
+        223,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Refresh or recycle function."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        250,
+        468,
+        311,
+        531
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Stopscreen or defrost."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        911,
+        500,
+        924,
+        513
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        0,
+        408,
+        41,
+        448
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple simple element or icon."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        310,
+        272,
+        409,
+        287
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A line graph or graph bar."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        600,
+        585,
+        611,
+        598
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        409,
+        273,
+        448,
+        287
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple, flat, rectangular shape or icon."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        220,
+        346,
+        240,
+        361
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1679,
+        389,
+        1697,
+        408
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A red square button."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1299,
+        468,
+        1343,
+        485
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "The word \"none\" in a dark background."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        54,
+        877,
+        72,
+        897
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "a single lightening bolt in the dark."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        915,
+        576,
+        927,
+        590
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        256,
+        593,
+        306,
+        605
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        55,
+        899,
+        71,
+        919
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "a stream of light coming out of the darkness."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        880,
+        273,
+        933,
+        288
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        291,
+        274,
+        307,
+        288
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        220,
+        361,
+        239,
+        375
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        896,
+        694,
+        916,
+        704
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        895,
+        648,
+        928,
+        661
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry image or file transfer tool."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        220,
+        394,
+        241,
+        413
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "a square button with a thumbs up symbol."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        249,
+        550,
+        307,
+        593
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry option to send a message."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1678,
+        468,
+        1689,
+        482
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        497,
+        108,
+        513,
+        126
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1183,
+        1081,
+        1277,
+        1107
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "Whole Image"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        941,
+        162,
+        953,
+        179
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1050,
+        158,
+        1066,
+        178
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1032,
+        1051,
+        1197,
+        1067
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry image or file."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1304,
+        439,
+        1408,
+        458
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "The number \"Ten\" in a simple font."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        979,
+        1053,
+        991,
+        1066
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        918,
+        613,
+        927,
+        627
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        42,
+        1040,
+        59,
+        1063
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A blurry arrow pointing downward."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        994,
+        1051,
+        1025,
+        1067
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple marker or symbol."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1701,
+        925,
+        1710,
+        966
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        241,
+        273,
+        265,
+        288
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple option to change the channel or channel name."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        43,
+        1064,
+        58,
+        1081
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        598,
+        273,
+        610,
+        287
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        1410,
+        397,
+        1459,
+        415
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A simple math problem or feature called peas."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        247,
+        328,
+        263,
+        343
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        457,
+        274,
+        538,
+        287
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "A graph or graph."
+    },
+    {
+      "class": "icon",
+      "bbox": [
+        915,
+        594,
+        927,
+        609
+      ],
+      "confidence": 0.5,
+      "source": "omniparser",
+      "content": "unanswerable"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        727,
+        4,
+        957,
+        21
+      ],
+      "text": "2 -overlay_ocr_1769891241734.jpg",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1590,
+        2,
+        1708,
+        19
+      ],
+      "text": "Restart to Update →",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        5,
+        35,
+        66,
+        57
+      ],
+      "text": "Explorer",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        186,
+        42,
+        200,
+        53
+      ],
+      "text": "R",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        203,
+        39,
+        424,
+        58
+      ],
+      "text": "overlay_ocr_1769891241734.jpg X",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        458,
+        39,
+        509,
+        60
+      ],
+      "text": "utils.py",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        583,
+        43,
+        731,
+        57
+      ],
+      "text": "step2_omniparser.py M",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        771,
+        40,
+        790,
+        58
+      ],
+      "text": "22",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        792,
+        40,
+        858,
+        59
+      ],
+      "text": "omnipars",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        864,
+        43,
+        879,
+        55
+      ],
+      "text": "m",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        949,
+        37,
+        1075,
+        57
+      ],
+      "text": "OmniParser Integra",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        438,
+        38,
+        458,
+        57
+      ],
+      "text": "~",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        561,
+        39,
+        579,
+        56
+      ],
+      "text": "2",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        181,
+        65,
+        700,
+        88
+      ],
+      "text": "benchmarks > omniparser_mode1_oneframe > overlay_ocr_1769891241734.jpg",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        34,
+        86,
+        114,
+        106
+      ],
+      "text": ".venv_dino",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1269,
+        82,
+        1704,
+        101
+      ],
+      "text": "- cyne Aoo npoo, Aañ 1 pe nep  Be",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        12,
+        107,
+        102,
+        127
+      ],
+      "text": ".windsurf",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        934,
+        118,
+        1045,
+        134
+      ],
+      "text": "Thought for 8s",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        28,
+        128,
+        115,
+        148
+      ],
+      "text": "benchmarks",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        32,
+        152,
+        149,
+        171
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        933,
+        146,
+        1049,
+        163
+      ],
+      "text": "0 /2 tasks done",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        38,
+        176,
+        141,
+        193
+      ],
+      "text": "overlay_17698..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        962,
+        175,
+        1547,
+        193
+      ],
+      "text": "Fix Omni OCR (PaddleOCR) extraction for mode=1 and verify on exactly 1 processed frame",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        32,
+        197,
+        135,
+        217
+      ],
+      "text": "overlay_ocr_...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        962,
+        199,
+        1566,
+        217
+      ],
+      "text": "Commit selected OmniParser benchmark artifacts + Benchmarks_along_the_way.md updates",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        27,
+        218,
+        131,
+        238
+      ],
+      "text": "overlay_ui_17..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        19,
+        241,
+        132,
+        262
+      ],
+      "text": "ui_state_1769...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        248,
+        238,
+        343,
+        245
+      ],
+      "text": "@ovedy 769nar2addig X",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        349,
+        237,
+        380,
+        247
+      ],
+      "text": "# uslispy",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        568,
+        237,
+        625,
+        244
+      ],
+      "text": "Vliskan Layer for Lit",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        248,
+        250,
+        279,
+        257
+      ],
+      "text": "benchmark",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        391,
+        248,
+        461,
+        259
+      ],
+      "text": "aay_1760088138444.jpp",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        938,
+        242,
+        1649,
+        261
+      ],
+      "text": "~/Desktop/LLM/2$ /Users/yukakust/Desktop/LLM/OmniParser/.venv_omni/bin/python -m examples.step2_o1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        170,
+        255,
+        220,
+        267
+      ],
+      "text": "  veLdino",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        576,
+        256,
+        750,
+        263
+      ],
+      "text": "biEtpe:/githuad.con/ccache/ccacthel/blab/aaster/ac/DesTaL.L.ad",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        9,
+        266,
+        130,
+        286
+      ],
+      "text": "omniparsermo..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        266,
+        216,
+        276
+      ],
+      "text": "aelndsurt",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        581,
+        263,
+        671,
+        273
+      ],
+      "text": "wreings.erelarnding,nessege!",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        938,
+        262,
+        1667,
+        280
+      ],
+      "text": "rser --mode 1 --max-frames 1 --seconds 2 -omni-path /Users/yukakust/Desktop/LLM/OmniParser --run-name",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        167,
+        274,
+        222,
+        286
+      ],
+      "text": "benhmerks",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        4,
+        289,
+        127,
+        309
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        144,
+        292,
+        154,
+        299
+      ],
+      "text": "h",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        167,
+        293,
+        233,
+        305
+      ],
+      "text": "  amniparsar_mo",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        173,
+        286,
+        233,
+        296
+      ],
+      "text": " omniparse_me.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        940,
+        284,
+        1176,
+        298
+      ],
+      "text": "omniparser_mode1_oneframe_ocrfix2",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        166,
+        303,
+        232,
+        315
+      ],
+      "text": "amnizenser mo",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        314,
+        123,
+        333
+      ],
+      "text": "omniparser_mo..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        165,
+        313,
+        232,
+        325
+      ],
+      "text": "vammlparner_me",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        497,
+        314,
+        520,
+        321
+      ],
+      "text": "SE0EE",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        565,
+        305,
+        605,
+        312
+      ],
+      "text": "Thought for Sis",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        951,
+        306,
+        1709,
+        323
+      ],
+      "text": "s may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/m",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        165,
+        325,
+        230,
+        335
+      ],
+      "text": "ommiparse_ma.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        565,
+        318,
+        631,
+        325
+      ],
+      "text": "Fnnd ptils py aL5gp-587",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        139,
+        330,
+        148,
+        338
+      ],
+      "text": "D",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        563,
+        328,
+        608,
+        338
+      ],
+      "text": "Thought for 10s",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        953,
+        323,
+        1075,
+        337
+      ],
+      "text": "r/doc/INSTALL.md",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        336,
+        120,
+        357
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        177,
+        336,
+        185,
+        343
+      ],
+      "text": "a",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        184,
+        332,
+        229,
+        345
+      ],
+      "text": "Overlay_ 1705e",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        176,
+        346,
+        184,
+        353
+      ],
+      "text": "a",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        186,
+        344,
+        227,
+        355
+      ],
+      "text": "owerlay,oor_...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        576,
+        344,
+        597,
+        354
+      ],
+      "text": "uis ov",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        867,
+        345,
+        887,
+        353
+      ],
+      "text": "-25-6",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        965,
+        338,
+        1194,
+        355
+      ],
+      "text": "warnings.warn(warning_message)",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        137,
+        348,
+        147,
+        358
+      ],
+      "text": "G",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        174,
+        355,
+        186,
+        363
+      ],
+      "text": "a",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        182,
+        354,
+        226,
+        365
+      ],
+      "text": "overliay,M_T7_",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        951,
+        354,
+        1308,
+        368
+      ],
+      "text": "Creating model: ('PP-LCNet_x1_0_doc_ori', None)",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        364,
+        118,
+        381
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        135,
+        368,
+        146,
+        377
+      ],
+      "text": "EB",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        162,
+        372,
+        225,
+        387
+      ],
+      "text": "omniperer_mo",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        172,
+        365,
+        226,
+        375
+      ],
+      "text": "£) u_state_7760..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        599,
+        372,
+        696,
+        381
+      ],
+      "text": "esr oufiget_be fornat w \"ayuy\"1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        638,
+        365,
+        728,
+        372
+      ],
+      "text": "xywliatenl far iten in caont)",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        949,
+        368,
+        1702,
+        384
+      ],
+      "text": "Model files already exist. Using cached files. To redownload, please delete the directory manually:",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        388,
+        116,
+        405
+      ],
+      "text": "mniparser_mo..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        135,
+        386,
+        144,
+        396
+      ],
+      "text": "I",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        160,
+        383,
+        225,
+        396
+      ],
+      "text": "amniparser_mo.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        950,
+        383,
+        1408,
+        399
+      ],
+      "text": "ers/yukakust/.paddlex/official_models/PP-LCNet_x1_0_doc_ori'",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        159,
+        393,
+        225,
+        406
+      ],
+      "text": "amniparse_mo",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        159,
+        402,
+        226,
+        417
+      ],
+      "text": " omniparse_mo",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        558,
+        398,
+        605,
+        411
+      ],
+      "text": "Thought for 40",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        950,
+        397,
+        1187,
+        414
+      ],
+      "text": "Creating model: ('UVDoc', None)",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        411,
+        114,
+        430
+      ],
+      "text": "overlay_17698..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        159,
+        414,
+        226,
+        426
+      ],
+      "text": "amnisarser_mo.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        561,
+        413,
+        629,
+        423
+      ],
+      "text": "Read utis py #L,560-608",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        946,
+        409,
+        1705,
+        431
+      ],
+      "text": "Model files already exist. Using cached files. To redownload, please delete the directory manually:",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        159,
+        424,
+        226,
+        436
+      ],
+      "text": " omnigarser_mo.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        560,
+        434,
+        883,
+        444
+      ],
+      "text": "Ceirvac svoey, vTo moi nocnepak nery s ④ check_ocr_box cmyvalno cmoman semy itisplay_inpetrae (raw",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        561,
+        425,
+        606,
+        432
+      ],
+      "text": "Thought for iis",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        436,
+        112,
+        455
+      ],
+      "text": "overlay_ocr._1...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        162,
+        436,
+        226,
+        446
+      ],
+      "text": " omniperser_mo.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        948,
+        427,
+        1284,
+        445
+      ],
+      "text": "ers/yukakust/.paddlex/official_models/UVDoc",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        173,
+        446,
+        184,
+        455
+      ],
+      "text": "a",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        182,
+        446,
+        228,
+        456
+      ],
+      "text": "everiany_170698..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        562,
+        444,
+        879,
+        454
+      ],
+      "text": "usct ue gopecoeaaen doxcue i He jofeeteer 3), 8 ano feactpo nonpaano (are se aarnyuxa, npocto 6ar).",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        948,
+        442,
+        1348,
+        460
+      ],
+      "text": "Creating model: ('PP-LCNet_x1_0_textline_ori', None)",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        460,
+        111,
+        478
+      ],
+      "text": "overlay_ui._17...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        173,
+        457,
+        184,
+        465
+      ],
+      "text": "a",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        182,
+        456,
+        226,
+        467
+      ],
+      "text": "everiny_oc_..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        559,
+        461,
+        600,
+        475
+      ],
+      "text": "Ges cuntiox.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        576,
+        454,
+        878,
+        464
+      ],
+      "text": "e aroro saxcso sanyay ecdeud -sax-fraees 1 = npceepa, 4no Omni OCR + Ul + content orpafemassor",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        173,
+        475,
+        226,
+        486
+      ],
+      "text": "() u_state_1760.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        174,
+        466,
+        185,
+        475
+      ],
+      "text": "a",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        181,
+        466,
+        225,
+        476
+      ],
+      "text": "ovectay_u_17.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        483,
+        117,
+        502
+      ],
+      "text": "ui_state_1769...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        164,
+        485,
+        226,
+        496
+      ],
+      "text": " step2A_20260.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        579,
+        480,
+        598,
+        488
+      ],
+      "text": "ris py",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        163,
+        495,
+        227,
+        506
+      ],
+      "text": " $e92A_20260.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        164,
+        505,
+        227,
+        516
+      ],
+      "text": "step28_20260.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        598,
+        504,
+        782,
+        516
+      ],
+      "text": "cx2rectenglelopence_img, 5x. pl. Cxm, yeh1, (0, 255. 01. 21",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        600,
+        499,
+        670,
+        506
+      ],
+      "text": "bb.apponel(Ex. 7. B, b)3",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        508,
+        120,
+        527
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        164,
+        516,
+        228,
+        527
+      ],
+      "text": "step28_20260..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        596,
+        515,
+        638,
+        522
+      ],
+      "text": "mutplottib ",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        532,
+        121,
+        551
+      ],
+      "text": "omniparser_mo..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        161,
+        534,
+        208,
+        547
+      ],
+      "text": "esarpliet",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        163,
+        525,
+        227,
+        535
+      ],
+      "text": " st8pC_20260",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        565,
+        535,
+        872,
+        549
+      ],
+      "text": "ar-1- /y///-",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        567,
+        529,
+        875,
+        539
+      ],
+      "text": "→/besktop/LU.N/2s Asers/yaekast/lesktop/LuN/3erferser/.ren_omL/bon/pythen -s cxongles-stea?_ommipe",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        161,
+        542,
+        200,
+        559
+      ],
+      "text": "yt",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        161,
+        553,
+        223,
+        566
+      ],
+      "text": " Dythia eg0-info",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        566,
+        545,
+        607,
+        554
+      ],
+      "text": "odiel_eneframe",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        554,
+        124,
+        573
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        162,
+        563,
+        204,
+        576
+      ],
+      "text": "weights",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        236,
+        571,
+        261,
+        582
+      ],
+      "text": "Oupust",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        488,
+        568,
+        548,
+        578
+      ],
+      "text": "90-|0×",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        577,
+        562,
+        696,
+        572
+      ],
+      "text": "odel riles already exist. Using cached",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        729,
+        567,
+        778,
+        579
+      ],
+      "text": "teutLne orL",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        791,
+        564,
+        880,
+        571
+      ],
+      "text": "bete the directory samallys",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        578,
+        124,
+        597
+      ],
+      "text": "omniparser_mo..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        575,
+        208,
+        585
+      ],
+      "text": "gitignore",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        584,
+        214,
+        594
+      ],
+      "text": " Blencheark",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        237,
+        577,
+        540,
+        592
+      ],
+      "text": "Liscal-server1st80ut) (4s) at8_s400ss c12nt18-chr0me-9909351-a768-4733-0619-6192500d7085",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        714,
+        579,
+        881,
+        591
+      ],
+      "text": "To redwnlead, pleuse delate the dinectory mamasllyi",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        171,
+        594,
+        222,
+        604
+      ],
+      "text": "pypraject toml",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        239,
+        589,
+        328,
+        599
+      ],
+      "text": "cL.dentTypenchrane clsenten",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        3,
+        601,
+        126,
+        621
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        179,
+        603,
+        217,
+        613
+      ],
+      "text": "README.d",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        239,
+        597,
+        315,
+        607
+      ],
+      "text": "Elecal-serverl Estdout",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        239,
+        605,
+        278,
+        615
+      ],
+      "text": "csantTypen",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        298,
+        606,
+        328,
+        613
+      ],
+      "text": "cLiento=i",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        312,
+        598,
+        327,
+        605
+      ],
+      "text": "s)",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        724,
+        601,
+        881,
+        611
+      ],
+      "text": "redownlsad, please delete the directory namual ly",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        181,
+        613,
+        229,
+        623
+      ],
+      "text": "REALUISATIONLInd",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        187,
+        623,
+        229,
+        633
+      ],
+      "text": "equrenems. toe",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        240,
+        614,
+        309,
+        621
+      ],
+      "text": "Eacal-servert Estdout",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        5,
+        625,
+        127,
+        644
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        240,
+        620,
+        274,
+        630
+      ],
+      "text": "cl senttype",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        182,
+        632,
+        215,
+        641
+      ],
+      "text": "SCOPEId",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        241,
+        628,
+        285,
+        638
+      ],
+      "text": "[lacal-server",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        241,
+        637,
+        273,
+        643
+      ],
+      "text": "clientTeor",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        242,
+        644,
+        267,
+        651
+      ],
+      "text": "[lacal-s",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        316,
+        644,
+        329,
+        651
+      ],
+      "text": "lws]",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        332,
+        644,
+        359,
+        651
+      ],
+      "text": "outh sace",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        826,
+        636,
+        853,
+        646
+      ],
+      "text": "Raject all",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        858,
+        636,
+        889,
+        646
+      ],
+      "text": "Accept all",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        6,
+        647,
+        128,
+        667
+      ],
+      "text": "omniparser_mo...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        242,
+        652,
+        266,
+        659
+      ],
+      "text": "cLestt",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        164,
+        665,
+        187,
+        672
+      ],
+      "text": "> Osflns",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        332,
+        660,
+        357,
+        667
+      ],
+      "text": "suth_5ac",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        674,
+        12,
+        688
+      ],
+      "text": "2",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        17,
+        669,
+        127,
+        689
+      ],
+      "text": "overlay_17698..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        564,
+        669,
+        667,
+        676
+      ],
+      "text": " Ci:Cote GPT-6.2 LowHaaspning Fa",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        243,
+        682,
+        272,
+        692
+      ],
+      "text": "@",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        664,
+        683,
+        880,
+        693
+      ],
+      "text": "Whole imsge 1710x1107 907.Sekca  Vibe0pe Pro Windsurf - Settings",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        19,
+        693,
+        126,
+        712
+      ],
+      "text": "overlay_ocr_..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        21,
+        714,
+        127,
+        736
+      ],
+      "text": "overlay_ui_17...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        22,
+        738,
+        124,
+        757
+      ],
+      "text": "ui_state_1769.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        17,
+        761,
+        126,
+        781
+      ],
+      "text": "step2A_20260.",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        20,
+        784,
+        137,
+        804
+      ],
+      "text": "step2A_20260..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        23,
+        806,
+        137,
+        825
+      ],
+      "text": "step2B_20260...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        158,
+        818,
+        210,
+        842
+      ],
+      "text": "Output",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        351,
+        821,
+        391,
+        842
+      ],
+      "text": "Filter",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        567,
+        821,
+        623,
+        842
+      ],
+      "text": "VibeOps",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        725,
+        828,
+        732,
+        833
+      ],
+      "text": "C",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        745,
+        820,
+        865,
+        840
+      ],
+      "text": "×  … | [)",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        25,
+        828,
+        139,
+        847
+      ],
+      "text": "step2B_20260...",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        868,
+        823,
+        887,
+        836
+      ],
+      "text": "×",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        25,
+        851,
+        138,
+        870
+      ],
+      "text": "step2c_20260..",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        164,
+        846,
+        865,
+        863
+      ],
+      "text": "[local-server] [stdout] [ws] auth_success clientId=chrome-4ab39333-755b-4da5-b526-827cecbc5f44",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        163,
+        863,
+        366,
+        883
+      ],
+      "text": "clientType=chrome clients=1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        22,
+        876,
+        89,
+        893
+      ],
+      "text": "examples",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        120,
+        881,
+        126,
+        886
+      ],
+      "text": "-",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        163,
+        880,
+        867,
+        902
+      ],
+      "text": "[local-server][stdout] [ws] auth_success clientId=chrome-b4aa5619-a0e0-42a3-8cd7-64b47e72c5b3",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        21,
+        895,
+        70,
+        917
+      ],
+      "text": "pythia",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        163,
+        899,
+        367,
+        920
+      ],
+      "text": "clientType=chrome clients=1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        22,
+        919,
+        126,
+        939
+      ],
+      "text": "pythia.egg-info",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        164,
+        919,
+        867,
+        939
+      ],
+      "text": "[local-server] [stdout] [ws] auth_success clientId=chrome-f693d199-d886-4c9e-a4e7-4570e4a2d1e1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        21,
+        943,
+        79,
+        961
+      ],
+      "text": "weights",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        163,
+        938,
+        369,
+        958
+      ],
+      "text": "clientType=chrome clients=1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        162,
+        956,
+        868,
+        977
+      ],
+      "text": "[local-server] [stdout] [ws] auth_success clientId=chrome-af5d66e7-1aac-4c8f-9413-36da872cad0c",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        967,
+        15,
+        984
+      ],
+      "text": "3",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        21,
+        966,
+        89,
+        987
+      ],
+      "text": ".gitignore",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        162,
+        975,
+        370,
+        995
+      ],
+      "text": "clientType=chrome clients=1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        926,
+        976,
+        1046,
+        992
+      ],
+      "text": "27 files +2292 -11 >",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1570,
+        978,
+        1635,
+        998
+      ],
+      "text": "Reject all",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        1650,
+        979,
+        1710,
+        996
+      ],
+      "text": "Accept al",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        20,
+        991,
+        128,
+        1008
+      ],
+      "text": "Benchmark... M",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        161,
+        994,
+        868,
+        1015
+      ],
+      "text": "[local-server] [stdout] [ws] auth_success clientId=chrome-e1684039-e5a2-415d-b9d0-69d83f20e7f1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        14,
+        1013,
+        117,
+        1037
+      ],
+      "text": "pyproject.toml",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        161,
+        1017,
+        370,
+        1034
+      ],
+      "text": "clientType=chrome clients=1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        159,
+        1035,
+        869,
+        1057
+      ],
+      "text": "[local-server][stdout] [ws] auth_success clientId=chrome-ef2c9b6d-0e2a-40fa-8d06-993ce3ea18a6",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        924,
+        1034,
+        1576,
+        1056
+      ],
+      "text": "KMTb  nb B r6  ce    o6 nn 46bI 6I aTN a",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        1054,
+        23,
+        1070
+      ],
+      "text": "ine",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        157,
+        1057,
+        368,
+        1075
+      ],
+      "text": "clientType=chrome clients=1",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        928,
+        1062,
+        1186,
+        1078
+      ],
+      "text": "+ <> Code GPT-5.2 Low Reasoning Fast",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    },
+    {
+      "class": "text",
+      "bbox": [
+        0,
+        1077,
+        28,
+        1098
+      ],
+      "text": "line",
+      "confidence": 0.5,
+      "source": "omni_ocr"
+    }
+  ]
+}

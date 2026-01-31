@@ -21,6 +21,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--run-name", default=None)
     parser.add_argument("--seconds", type=int, default=10)
+    parser.add_argument("--max-frames", type=int, default=0)
     parser.add_argument("--every-n", type=int, default=10)
     parser.add_argument("--buffer", type=int, default=8)
     parser.add_argument("--fps", type=float, default=30.0)
@@ -52,6 +53,7 @@ def main() -> None:
         target_capture_fps=args.fps,
         preprocess_small_width=preprocess.small_width,
         run_seconds=args.seconds,
+        max_frames=(int(args.max_frames) if int(args.max_frames) > 0 else None),
         omni_path=args.omni_path,
         mode=int(args.mode),
         box_threshold=float(args.box_th),
